@@ -234,6 +234,10 @@ body {
     background: linear-gradient(#ffffff, #cac2c2);
   }
 }
+.activated {
+  pointer-events: none;
+  cursor: default;
+}
 .upload__inner {
   text-align: center;
   margin-top: 41px;

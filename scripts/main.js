@@ -1,12 +1,12 @@
 window.onload = function () {
   (function () {
-    let menu = document.body.querySelector(".menu");
-    menu.querySelectorAll("a").forEach((a) => {
-      a.addEventListener("click", function () {
-        let item = a.parentElement;
-        item.classList.add("item__activate");
-      });
-    });
+    // let menu = document.body.querySelector(".menu");
+    // menu.querySelectorAll("a").forEach((a) => {
+    //   a.addEventListener("click", function () {
+    //     let item = a.parentElement;
+    //     item.classList.add("item__activate");
+    //   });
+    // });
     let items = menu.children;
     menu.addEventListener("mouseover", function () {
       for (let item of items) {
