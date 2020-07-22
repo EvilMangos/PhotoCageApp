@@ -1,6 +1,6 @@
 window.onload = function () {
   (function () {
-    // let menu = document.body.querySelector(".menu");
+    let menu = document.body.querySelector(".menu");
     // menu.querySelectorAll("a").forEach((a) => {
     //   a.addEventListener("click", function () {
     //     let item = a.parentElement;
